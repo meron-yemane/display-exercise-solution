@@ -1,1 +1,60 @@
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+nav {
+	position: relative;
+	background-color: grey;
+	height: 50px;
+}
+
+.links {
+	padding-top: 14px; 
+	padding-left: 150px;
+
+}
+
+.cat-logo {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	left: 30px;
+}
+
+.links a::after {
+	content: " |";
+}
+
+.green-box {
+	border: 10px green dotted;
+	height: 300px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+	position: relative;
+}
+
+.space-cat {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	bottom: 175px;
+	right: 500px;
+}
+
+.space-dog {
+    position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 200px;
+	left: 450px;
+}
+
+
+
 
