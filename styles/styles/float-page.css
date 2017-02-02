@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  padding-left: 90px;
+  padding-right: 90px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.medium {
+	width: 300px;
+}
+
+.first-cloud {
+  margin-top: 15px;
+  margin-bottom: 15px;	
+  float: left;
+  margin-right: 15px;
+}
+
+.second-cloud {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: right;
+  margin-left: 15px;
+}
