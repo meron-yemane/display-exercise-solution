@@ -6,6 +6,11 @@
   min-height: 100%;
 }
 
+body {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
+}
+
 nav {
 	position: relative;
 	background-color: grey;
